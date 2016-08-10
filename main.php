@@ -71,6 +71,7 @@ class LinkPosts {
             'linked:og:description' => $og_data['og:description'],
             'linked:host' => $host,
             'linked:og:title' => $og_data['og:title'],
+            'linked:og:site_name' => $og_data['og:site_name'],
         ];
 
         $this->remove_action_save_post();
